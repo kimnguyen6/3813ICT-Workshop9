@@ -1,6 +1,6 @@
 module.exports = function(db, app) {
     app.post("/add", function(req, res) {
-      console.log("ADD ADD ADD ADD");
+      console.log("Added");
       if (!req.body) {
         return res.sendStatus(400);
       }
